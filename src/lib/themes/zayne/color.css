@@ -1,0 +1,61 @@
+:root {
+	/* DEEP SEA (PRIMARY) */
+	--deep-sea: #005d91;
+	--deep-sea-t0: #000000;
+	--deep-sea-t10: #001d32;
+	--deep-sea-t20: #003353;
+	--deep-sea-t30: #004a75;
+	--deep-sea-t40: #106397;
+	--deep-sea-t50: #377cb2;
+	--deep-sea-t60: #5496cd;
+	--deep-sea-t70: #70b1ea;
+	--deep-sea-t80: #95ccff;
+	--deep-sea-t90: #cee5ff;
+	--deep-sea-t95: #e8f2ff;
+	--deep-sea-t100: #ffffff;
+
+	/* CORAL (SECONDARY) */
+	--coral: #ff7f50;
+	--coral-t0: #000000;
+	--coral-t10: #380c00;
+	--coral-t20: #5c1a00;
+	--coral-t30: #822800;
+	--coral-t40: #a43c12;
+	--coral-t50: #c55429;
+	--coral-t60: #e66d3f;
+	--coral-t70: #ff8b62;
+	--coral-t80: #ffb59c;
+	--coral-t90: #ffdbcf;
+	--coral-t95: #ffede8;
+	--coral-t100: #ffffff;
+
+	/*  LIGHT PURPLE (TERTIARY) */
+	--light-purple: #8e7cc3;
+	--light-purple-t0: #000000;
+	--light-purple-t10: #200b50;
+	--light-purple-t20: #362465;
+	--light-purple-t30: #4c3c7e;
+	--light-purple-t40: #655497;
+	--light-purple-t50: #7e6cb2;
+	--light-purple-t60: #9886ce;
+	--light-purple-t70: #b3a0ea;
+	--light-purple-t80: #cebdff;
+	--light-purple-t90: #e8ddff;
+	--light-purple-t95: #f5eeff;
+	--light-purple-t100: #ffffff;
+
+	/* LIGHT SAND (NEUTRAL) */
+	--light-sand: #75777b;
+	--light-sand-t0: #000000;
+	--light-sand-t10: #191c1f;
+	--light-sand-t20: #2e3134;
+	--light-sand-t30: #44474b;
+	--light-sand-t40: #5c5e63;
+	--light-sand-t50: #75777b;
+	--light-sand-t60: #8e9195;
+	--light-sand-t70: #a9abb0;
+	--light-sand-t80: #c5c6cb;
+	--light-sand-t90: #e1e2e7;
+	--light-sand-t95: #eff1f5;
+	--light-sand-t100: #ffffff;
+}
