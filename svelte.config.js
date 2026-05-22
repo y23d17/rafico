@@ -54,8 +54,7 @@ const config = {
 					'http://127.0.0.1:1024',
 					'https://cdn.jsdelivr.net'
 				],
-				'style-src': ['self', 'unsafe-inline', 'localhost
-				'],
+				'style-src': ['self', 'unsafe-inline', 'localhost'],
 				'object-src': ['none']
 			}
 		},

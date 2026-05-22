@@ -1,0 +1,86 @@
+@import url('./color.css');
+
+:root {
+	/* ==========================================================================
+     LIGHT MODE
+     ========================================================================== */
+	--primary: var(--deep-sea-t40); /* #106397 */
+	--on-primary: var(--deep-sea-t100); /* #ffffff */
+	--primary-container: var(--deep-sea-t90); /* #cee5ff */
+	--on-primary-container: var(--deep-sea-t10); /* #001d32 */
+
+	--secondary: var(--coral-t40); /* #a43c12 */
+	--on-secondary: var(--coral-t100); /* #ffffff */
+	--secondary-container: var(--coral-t90); /* #ffdbcf */
+	--on-secondary-container: var(--coral-t10); /* #380c00 */
+
+	--tertiary: var(--light-purple-t40); /* #655497 */
+	--on-tertiary: var(--light-purple-t100); /* #ffffff */
+	--tertiary-container: var(--light-purple-t90); /* #e8ddff */
+	--on-tertiary-container: var(--light-purple-t10); /* #200b50 */
+
+	/* Surface & Backgrounds */
+	--background: var(--light-sand-t95); /* #eff1f5 - The light background from your UI */
+	--on-background: var(--light-sand-t10); /* #191c1f */
+	--surface: var(--light-sand-t95); /* #eff1f5 */
+	--on-surface: var(--light-sand-t10); /* #191c1f */
+
+	--surface-variant: var(--light-sand-t90); /* #e1e2e7 */
+	--on-surface-variant: var(--light-sand-t30); /* #44474b */
+	--outline: var(--light-sand-t50); /* #75777b */
+}
+
+/* ==========================================================================
+   DARK MODE
+   ========================================================================== */
+@media (prefers-color-scheme: dark) {
+	body:not(.light) {
+		--primary: var(--deep-sea-t80); /* #95ccff */
+		--on-primary: var(--deep-sea-t20); /* #003353 */
+		--primary-container: var(--deep-sea-t30); /* #004a75 */
+		--on-primary-container: var(--deep-sea-t95); /* #e8f2ff */
+
+		--secondary: var(--coral-t80); /* #ffb59c */
+		--on-secondary: var(--coral-t20); /* #5c1a00 */
+		--secondary-container: var(--coral-t30); /* #822800 */
+		--on-secondary-container: var(--coral-t95); /* #ffede8 */
+
+		--tertiary: var(--light-purple-t80); /* #cebdff */
+		--on-tertiary: var(--light-purple-t20); /* #362465 */
+		--tertiary-container: var(--light-purple-t30); /* #4c3c7e */
+		--on-tertiary-container: var(--light-purple-t95); /* #f5eeff */
+
+		/* Surface & Backgrounds */
+		--background: var(--light-sand-t10); /* #191c1f */
+		--on-background: var(--light-sand-t90); /* #e1e2e7 */
+		--surface: var(--light-sand-t10); /* #191c1f */
+		--on-surface: var(--light-sand-t90); /* #e1e2e7 */
+
+		--surface-variant: var(--light-sand-t20); /* #2e3134 */
+		--on-surface-variant: var(--light-sand-t80); /* #c5c6cb */
+		--outline: var(--light-sand-t60); /* #8e9195 */
+	}
+}
+
+/* Hardcoded Beer CSS theme override classes if you handle dark/light toggles manually */
+body.dark {
+	--primary: var(--deep-sea-t80);
+	--on-primary: var(--deep-sea-t20);
+	--primary-container: var(--deep-sea-t30);
+	--on-primary-container: var(--deep-sea-t95);
+	--secondary: var(--coral-t80);
+	--on-secondary: var(--coral-t20);
+	--secondary-container: var(--coral-t30);
+	--on-secondary-container: var(--coral-t95);
+	--tertiary: var(--light-purple-t80);
+	--on-tertiary: var(--light-purple-t20);
+	--tertiary-container: var(--light-purple-t30);
+	--on-tertiary-container: var(--light-purple-t95);
+	--background: var(--light-sand-t10);
+	--on-background: var(--light-sand-t90);
+	--surface: var(--light-sand-t10);
+	--on-surface: var(--light-sand-t90);
+	--surface-variant: var(--light-sand-t20);
+	--on-surface-variant: var(--light-sand-t80);
+	--outline: var(--light-sand-t60);
+}
